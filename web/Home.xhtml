@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 150px;
+    width: 150px;
+    background: #aaa;
+  }
+  .left    	{ text-align: left;}
+  .right   	{ text-align: right;}
+  .center  	{ text-align: center;}
+  .justify 	{ text-align: justify;}
+  .lucida	{ font-family: "Lucida Bright";}
+  </style>
+</head>
+<body>
+<!-- header -->
+<nav class="navbar navbar-expand-sm bg-info navbar-dark" >
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav justify-content-end">
+      <li class="nav-item">
+        <a class="navbar-brand active" href="#">Home</a>
+      </li>
+      <li class="nav-item" style="margin-top: 3px">
+        <a class="nav-link" href="#">Our Menu</a>
+      </li>
+      <li class="nav-item" style="margin-top: 3px">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>  
+</nav>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-3">
+      <h3>Categories</h3>
+      <hr style="height:1px;border-width:1;background-color:lightgray"/>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active bg-info" href="#">Food</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-info" href="#">Drinks</a>
+        </li>
+      </ul>
+      <br/>
+      <h3 style="margin-top: 10%">Find Us</h3>
+      <hr style="height:1px;border-width:1;background-color:lightgray"/>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1978.657577918592!2d110.4990490149292!3d-7.318450961304441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a7831cb73c925%3A0x91e915ff70e2f210!2sSatya%20Wacana%20Christian%20University!5e0!3m2!1sen!2sid!4v1597059973512!5m2!1sen!2sid" width="250" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	</div>
+
+    <div class="col-sm-7">
+      <div class="container pt-3">	
+	      <div class="card-columns">
+
+			<div class="card lucida" style="border: 0px;font-size: 12px">
+			  <div class="card-body text">
+			    <img class="rounded fakeimg" src="https://sweetrip.id/wp-content/uploads/2020/05/indokulinery_98100803_131482058518257_791146951827566915_n.jpg" style="margin-bottom: 10px"/>
+			    <span>Rendang</span>
+			    <b class="text-info" style="margin-left: 50px;">15.000</b>
+				<button type="button" class="btn btn-outline-info btn-sm" 
+				style="border-radius: 15px;font-size: 12px;padding-left: 40px;padding-right: 40px;margin-top: 10px">Order Now
+				</button>
+			  </div>
+			</div>
+
+		</div>
+      </div>
+    </div>
+
+    <div class="col-sm-2">
+      <div class="container" style="width: 200px;height: 600px">
+	      <h4>Your Order</h4>
+	      <table style="width: 160px">
+	      	<tr>
+		      <hr style="height:1px;border-width:1;background-color:lightgray"/>
+		      <td><b>Rendang</b></td>
+		      <td></td>
+		    </tr>
+		    <tr style="font-size: 14px;">
+		      <td><span>15.000 x 2</span></td>
+		      <td align="right"><span>30.000</span></td>
+		    </tr>
+		    <tr>
+		    	<td><span><a style="font-size: 14px;" href="#">remove</a></span></td>
+		    	<td></td>
+		    </tr>
+		    <tr>
+		    	<td></td>
+		    </tr>
+		    <tr>
+		    	<td><b class="text-info">Total</b></td>
+		    	<td align="right"><b>30.000</b></td>
+		    </tr>
+	      </table>
+  	  </div>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>Footer</p>
+</div>
+
+</body>
+</html>
